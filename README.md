@@ -1,5 +1,5 @@
 # EVM Crypto Brute Force
-This script is designed to automatically generate seed phrases and check balances for Ethereum, Binance Smart Chain (BSC), and Polygon (MATIC) networks. If a wallet with a non-zero balance is found, the wallet's information (address, mnemonic, private key, and balances) is logged and saved to a file named wallets.txt.
+This script is designed to automatically generate seed phrases and check balances for Ethereum and Binance Smart Chain (BSC) networks. If a wallet with a non-zero balance is found, the wallet's information (address, mnemonic, private key, and balances) is logged and saved to a file named wallets.txt.
 
 ![Preview](https://github.com/cdw1p/evm-crypto-bruteforce/blob/main/preview.png?raw=true)
 
@@ -12,7 +12,7 @@ Make sure you have Node.js installed on your machine before running this script.
 # Usage
 To start the brute force process, run the following command in the terminal:
 ```bash
-node index.js
+node index.js <amount of threads to create>
 ```
 
 The script will continuously generate seed phrases and check the balances of the associated wallets. Information about each checked wallet will be logged to the console.
